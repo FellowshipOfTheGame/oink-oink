@@ -11,4 +11,12 @@ struct Tile {
 	int x, y;
 };
 
+struct Monster {
+	unsigned short int type;
+	unsigned short int dir;
+
+	int x;
+	int y;
+};
+
 #endif
